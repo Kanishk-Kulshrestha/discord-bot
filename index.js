@@ -1,4 +1,4 @@
-const token = process.env['TOKEN']
+const token = "PLACEHOLDER"//remove the placeholder and enter the token provided by the discord API
 const keepAlive = require("./server")
 const Discord = require('discord.js');
 const bot = new Discord.Client();
